@@ -18,7 +18,7 @@ git commit - a тоже самое если бы git add {file}  и git commit
 touch images/.gitkeep - включение индексаци в пусом каталоге
 
 --ИСТОРИЯ--
-git reset - переход к токе , указанной в кооменде
+git reset - переход к точке , указанной в кооменде
 https://habr.com/ru/post/203282/
 git log --oneline
 
