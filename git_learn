@@ -1,0 +1,60 @@
+git config --global user.name geekbrains
+git confog --global user.email info@geekbrains.ru
+git config --globak color.ui auto
+
+ls mkdir touch cp mv cat rm
+clear-очистка теминала
+git init
+git restore example - восстановить удаленный файл
+если нужно поментяь редактор по умолчанию
+https://ymatuhin.ru/tools/git-default-editor/
+git status -
+git add - добавить файл к будущему commit
+git add . - добавить всей файлы
+git commit - добавить commit
+git commit - m "message commit"
+git commit - a тоже самое если бы git add {file}  и git commit
+
+touch images/.gitkeep - включение индексаци в пусом каталоге
+
+--ИСТОРИЯ--
+git reset - переход к токе , указанной в кооменде
+https://habr.com/ru/post/203282/
+git log --oneline
+
+git reflog - история всех операцие с commit
+
+git revert - ОТМЕНА ПОСЛЕДСТВИЙ КОММИТА указываем хеш коммита который нужно отменить
+
+---ВЕТКИ--
+git branch - просмотр веток
+git branch dev создание ветки
+git checkout dev - переключиться на ветку dev
+git checkout -b dev-test - переключение на ветку dev-test/ Если не существует, то создаем
+
+-ПУБЛИКАЦИЯ РЕПОЗИТОРИЕВ-
+
+github gitlab bitbucket
+-клонирование репо-
+git clone git@github.com:barsuk2/python_learn.git python_l
+
+-настройка ssh-соединения-
+ssh-keygen - генерация ssh-ключа
+
+git push-загрузка локальных изменения в удаленный репо
+git pull-скачать последние обновления ветки загрузить измениения с удаленного репо
+git fetch -подгрузить обновления из репо
+git push -u origin feature - обновить ветки в удал репо
+
+-СЛИЯНИЕ ВЕТОК-
+-marge-
+git merge dev - слияние веитки dev и master
+git push - толкать отправить измениеня в удаленный репо
+git braych - d dev  - удалние ветки в локальном репо
+git push --delete origin dev dev-kracen - удаление веток в удаленном репо
+-rebase-
+feature
+
+
+
+
